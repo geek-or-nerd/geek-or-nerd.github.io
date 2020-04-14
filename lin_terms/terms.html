@@ -13,8 +13,7 @@
       
       <div class="form-group">
       <label for="inputlg">Write a term in English, Japanese or Korean</label>
-      <input class="flexdatalist-json form-control input-lg"
-      
+      <input class="flexdatalist-json"
       type='text'
       placeholder='e.g. pragmatics'
       data-relatives='#relative'
@@ -35,8 +34,8 @@
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="jquery.flexdatalist.min.js"></script>
   <script>
-
-$('.flexdatalist-json form-control input-lg').flexdatalist({
+// form-control input-lg
+$('.flexdatalist-json').flexdatalist({
      searchContain: false,
      textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
      valueProperty: 'iso2',
