@@ -1,0 +1,36 @@
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    
+    <link href="/path/to/jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
+    <script src="/path/to/jquery.flexdatalist.min.js"></script>
+  
+    <input type='text'
+           placeholder='Write country name'
+           class='flexdatalist'
+           data-data='countries.json'
+           data-search-in='name'
+           data-search-by-word='true'
+           data-visible-properties='["name","capital","continent"]'
+           data-selection-required='true'
+           data-value-property='*'
+           data-min-length='1'
+           data-limit-of-values='2'
+           multiple='multiple'
+           name='country_multiple_by_word_id'>
+       
+    <script>
+    $('.flexdatalist').flexdatalist({
+        limitOfValues: 2,
+        minLength: 1,
+        valueProperty: '*',
+        selectionRequired: true,
+        visibleProperties: ["name","capital","continent"],
+        searchByWord: true,
+        searchIn: 'name',
+        data: 'countries.json'
+    });
+    </script>
+
+  </head>
+</html>
