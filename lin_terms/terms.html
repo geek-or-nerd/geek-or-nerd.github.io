@@ -19,17 +19,17 @@
            multiple='multiple'
            name='country_multiple_by_word_id'>
        
-    <script>
-    $('.flexdatalist').flexdatalist({
-        limitOfValues: 2,
-        minLength: 1,
-        valueProperty: '*',
-        selectionRequired: true,
-        visibleProperties: ["name","capital","continent"],
-        searchByWord: true,
-        searchIn: 'name',
-        data: 'countries.json'
-    });
+    <script type="text/javascript">
+      $('.flexdatalist').flexdatalist({
+          limitOfValues: 2,
+          minLength: 1,
+          valueProperty: '*',
+          selectionRequired: true,
+          visibleProperties: ["name","capital","continent"],
+          searchByWord: true,
+          searchIn: 'name',
+          data: 'countries.json'
+      });
     </script>
 
   </head>
