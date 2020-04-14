@@ -1,12 +1,48 @@
-<!DOCTYPE html>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="screen" rel="stylesheet" type="text/css">
-<link href="typeahead.js-bootstrap.css" media="screen" rel="stylesheet" type="text/css">
-
-
-<div class="container">
-  <h1>テスト</h1>
-<input type="text" class="ta" name="name">
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-<script src="typeahead.js" type="text/javascript"></script>
-<script src="sample.js" type="text/javascript"></script>
+<style>
+	.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+	.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; cursor: pointer; }
+	.autocomplete-selected { background: blue; color: white; }
+	.autocomplete-suggestions strong { font-weight: bold; color: orange; }
+	.autocomplete-group { padding: 2px 5px; }
+	.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+	</style>
+	
+	<input type="text" id="autocomplete">
+	<div id="outputbox">
+	  <p id="outputcontent">화폐를 선택하면 결과가 출력됨</p>
+	</div>
+	
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script src='//cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.26/jquery.autocomplete.min.js'></script>
+	<script>
+	  var currencies = [
+		{ value: 'United States dollar', data: 'USD' },
+		{ value: 'European euro', data: 'EUR' },
+		{ value: 'Japanese yen', data: 'JPY' },
+		{ value: 'Chinese renminbi', data: 'CNY' },
+		{ value: 'Hong Kong dollar', data: 'HKD' },
+		{ value: 'New Taiwan dollar', data: 'TWD' },
+		{ value: 'British pound', data: 'GBP' },
+		{ value: 'Omani rial', data: 'OMR' },
+		{ value: 'Canadian dollar', data: 'CAD' },
+		{ value: 'Swiss franc', data: 'CHF' },
+		{ value: 'Swedish krona', data: 'SEK' },
+		{ value: 'Australian dollar', data: 'AUD' },
+		{ value: 'New Zealand dollar', data: 'NZD' },
+		{ value: 'Czech koruna', data: 'CZK' },
+		{ value: 'Chilean peso', data: 'CLP' },
+		{ value: 'Turkish new lira', data: 'TRY' },
+		{ value: 'Mongolian tugrik', data: 'MNT' },   
+		{ value: 'Israeli new sheqel', data: 'ILS' },
+		{ value: 'Danish krone', data: 'DKK' },
+		{ value: 'Norwegian krone', data: 'NOK' }
+	  ];
+	
+	  $('#autocomplete').autocomplete({
+		lookup: currencies,
+		onSelect: function (suggestion) {
+		  var content = '<strong>화폐명:</strong> ' + suggestion.value + ' <br> <strong>기호:</strong> ' + suggestion.data;
+		  $('#outputcontent').html(content);
+		}
+	  });
+	</script>
