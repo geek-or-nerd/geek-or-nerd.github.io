@@ -2,7 +2,9 @@
   <head lang="en">
     <meta charset="utf-8">
     
-    <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">  
+    <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
+    <script src="jquery.flexdatalist.min.js"></script>
+  
     <body>
     <input id="cp_address"
            type='text'
@@ -18,9 +20,9 @@
            data-limit-of-values='2'
            multiple='multiple'
            name='country_multiple_by_word_id'>
-
-  <!-- <script src="jquery.flexdatalist.min.js"></script> -->
+  
   <script>
+  $(function() {
     $('#cp_address').flexdatalist({
         limitOfValues: 2,
         minLength: 1,
@@ -29,10 +31,10 @@
         visibleProperties: ["name","capital","continent"],
         searchByWord: true,
         searchIn: 'name',
-        data: '/countries.json'
+        url: '/countries.json'
     });
+  });
   </script>
-test
   </body>
   </head>
 </html>
