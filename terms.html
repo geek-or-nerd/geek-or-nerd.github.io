@@ -1,90 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Creating Twitter Typeahead using JSON Data</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script  type="text/javascript" src="typeahead.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-    // Sonstructs the suggestion engine
-    var lin_terms = new Bloodhound({
-        datumTokenizer: Bloodhound.tokenizers.whitespace,
-        queryTokenizer: Bloodhound.tokenizers.whitespace,
-        // The url points to a json file that contains an array of country names
-        prefetch: 'data/terms.json'
-    });
-    
-    // Initializing the typeahead with remote dataset
-    $('.typeahead').typeahead(null, {
-        name: 'terms',
-        source: lin_terms,
-        limit: 10 /* Specify maximum number of suggestions to be displayed */
-    });
-});  
-
-// test
-
-// test
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" media="screen" rel="stylesheet" type="text/css">
+<link href="typeahead.js-bootstrap.css" media="screen" rel="stylesheet" type="text/css">
 
 
-</script>
-<style type="text/css">
-.bs-example {
-	font-family: sans-serif;
-	position: relative;
-	margin: 100px;
-}
-.typeahead, .tt-query, .tt-hint {
-	border: 2px solid #CCCCCC;
-	border-radius: 8px;
-	font-size: 22px; /* Set input font size */
-	height: 30px;
-	line-height: 30px;
-	outline: medium none;
-	padding: 8px 12px;
-	width: 396px;
-}
-.typeahead {
-	background-color: #FFFFFF;
-}
-.typeahead:focus {
-	border: 2px solid #0097CF;
-}
-.tt-query {
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-}
-.tt-hint {
-	color: #999999;
-}
-.tt-menu {
-	background-color: #FFFFFF;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	border-radius: 8px;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-	margin-top: 12px;
-	padding: 8px 0;
-	width: 422px;
-}
-.tt-suggestion {
-	font-size: 22px;  /* Set suggestion dropdown font size */
-	padding: 3px 20px;
-}
-.tt-suggestion:hover {
-	cursor: pointer;
-	background-color: #0097CF;
-	color: #FFFFFF;
-}
-.tt-suggestion p {
-	margin: 0;
-}
-</style>
-</head>
-<body>
-    <div class="bs-example">
-		<h2>用語を入力してください。</h2>
-        <input type="text" class="typeahead tt-query" autocomplete="off" spellcheck="false">
-    </div>
-</body>
-</html>                                                        
+<div class="container">
+  <h1>テスト</h1>
+<input type="text" class="ta" name="name">
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+<script src="typeahead.js" type="text/javascript"></script>
+<script src="sample.js" type="text/javascript"></script>
