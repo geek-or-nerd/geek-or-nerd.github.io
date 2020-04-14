@@ -6,10 +6,10 @@
     <script src="jquery.flexdatalist.min.js"></script>
   
     <body>
-    <input id="cp_address"
+    <input id="linterms"
            type='text'
            placeholder='Write country name'
-           class='flexdatalist'
+           class='linterms'
            data-data='countries.json'
            data-search-in='name'
            data-search-by-word='true'
@@ -22,19 +22,13 @@
            name='country_multiple_by_word_id'>
   
   <script>
-  $(function() {
-    $('#cp_address').flexdatalist({
-        limitOfValues: 2,
+    $('#linterms').flexdatalist({
         minLength: 1,
-        valueProperty: '*',
-        selectionRequired: true,
-        visibleProperties: ["name","capital","continent"],
-        searchByWord: true,
         searchIn: 'name',
-        url: '/countries.json'
+        data: '/countries.json'
     });
-  });
   </script>
+   
   </body>
   </head>
 </html>
