@@ -11,7 +11,6 @@
   
     <body>
       
-      <div class="form-group">
       <label for="inputlg">Write a term in English, Japanese or Korean</label>
       <input class="flexdatalist-json"
       type='text'
@@ -29,12 +28,11 @@
       data-search-contain='false'
       id='chained_relative'
       name='chained_relative'>
-      </div>
 
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="jquery.flexdatalist.min.js"></script>
   <script>
-// form-control input-lg
+
 $('.flexdatalist-json').flexdatalist({
      searchContain: false,
      textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
