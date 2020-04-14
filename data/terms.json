@@ -1,1 +1,14 @@
-{ "value": "United States dollar", "data":"USD" }
+[
+    {
+      "list": "United States dollar",
+      "content": "USD"
+    },
+    {
+      "list": "リストB",
+      "content": "コンテンツB"
+    },
+    {
+      "list": "リストC",
+      "content": "コンテンツC"
+    }
+  ]
