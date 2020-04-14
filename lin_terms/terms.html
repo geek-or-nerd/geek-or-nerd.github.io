@@ -4,12 +4,18 @@
     
     <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    
     <style>
       body { font-family:'Open Sans'; background-color:#fafafa;} .container { margin:150px auto 30px auto;} h2 { margin:20px auto;}
     </style>
+  
     <body>
-      <input type='text'
-      placeholder='Write a term in English, Japanese or Korean'
+      
+      <div class="form-group">
+      <label for="inputlg">Write a term in English, Japanese or Korean</label>
+      <input class="form-control input-lg"
+      type='text'
+      placeholder='e.g. pragmatics'
       class='flexdatalist-json'
       data-relatives='#relative'
       data-url='countries.json'
@@ -24,7 +30,8 @@
       data-search-contain='false'
       id='chained_relative'
       name='chained_relative'>
-  
+      </div>
+
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="jquery.flexdatalist.min.js"></script>
   <script>
