@@ -3,13 +3,11 @@
     <meta charset="utf-8">
     
     <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
-    <!-- <script src="jquery.flexdatalist.min.js"></script> -->
   
     <body>
-    <input id="linterms"
-           type='text'
+    <input type='text'
            placeholder='Write country name'
-           class='linterms'
+           class='flexdatalist-json'
            data-data='countries.json'
            data-search-in='name'
            data-search-by-word='true'
@@ -21,16 +19,16 @@
            multiple='multiple'
            name='country_multiple_by_word_id'>
   
-  <script type="text/javascript">
-  $(function() {
-    $('#linterms').flexdatalist({
-        data: '/countries.json',
+  <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+  <script src="jquery.flexdatalist.min.js"></script>
+  <script>
+
+    $('.flexdatalist-json').flexdatalist({
+        data: 'countries.json',
         minLength: 1,
         searchIn: 'name'
     });
-  });
   </script>
-   TEST
   </body>
   </head>
 </html>
