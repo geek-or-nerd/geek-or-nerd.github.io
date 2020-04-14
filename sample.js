@@ -1,3 +1,5 @@
+localStorage.clear();
+
 $(function() {
   return $('.ta').typeahead({
     name: 'names',

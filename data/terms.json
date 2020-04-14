@@ -1,15 +1,3 @@
 [
-    {
-      "value":"斉藤",
-      "tokens":["さいとう","saito"]
-    },{
-      "value":"斉木",
-      "tokens":["さいき","saiki"]
-    },{
-      "value":"大野",
-      "tokens":["おおの","oono"]
-    },{
-      "value":"大原",
-      "tokens":["おおはら","oohara"]
-    }
-  ]
+    { "value": "United States dollar", "data":"USD" }
+]

@@ -15,31 +15,31 @@
 	<script src="//code.jquery.com/jquery.min.js"></script>
 	<script src='//cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.26/jquery.autocomplete.min.js'></script>
 	<script>
-	  var currencies = [
-		{ value: 'United States dollar', data: 'USD' },
-		{ value: 'European euro', data: 'EUR' },
-		{ value: 'Japanese yen', data: 'JPY' },
-		{ value: 'Chinese renminbi', data: 'CNY' },
-		{ value: 'Hong Kong dollar', data: 'HKD' },
-		{ value: 'New Taiwan dollar', data: 'TWD' },
-		{ value: 'British pound', data: 'GBP' },
-		{ value: 'Omani rial', data: 'OMR' },
-		{ value: 'Canadian dollar', data: 'CAD' },
-		{ value: 'Swiss franc', data: 'CHF' },
-		{ value: 'Swedish krona', data: 'SEK' },
-		{ value: 'Australian dollar', data: 'AUD' },
-		{ value: 'New Zealand dollar', data: 'NZD' },
-		{ value: 'Czech koruna', data: 'CZK' },
-		{ value: 'Chilean peso', data: 'CLP' },
-		{ value: 'Turkish new lira', data: 'TRY' },
-		{ value: 'Mongolian tugrik', data: 'MNT' },   
-		{ value: 'Israeli new sheqel', data: 'ILS' },
-		{ value: 'Danish krone', data: 'DKK' },
-		{ value: 'Norwegian krone', data: 'NOK' }
-	  ];
-	
+	//   var currencies = [
+	// 	{ value: 'United States dollar', data: 'USD' },
+	// 	{ value: 'European euro', data: 'EUR' },
+	// 	{ value: 'Japanese yen', data: 'JPY' },
+	// 	{ value: 'Chinese renminbi', data: 'CNY' },
+	// 	{ value: 'Hong Kong dollar', data: 'HKD' },
+	// 	{ value: 'New Taiwan dollar', data: 'TWD' },
+	// 	{ value: 'British pound', data: 'GBP' },
+	// 	{ value: 'Omani rial', data: 'OMR' },
+	// 	{ value: 'Canadian dollar', data: 'CAD' },
+	// 	{ value: 'Swiss franc', data: 'CHF' },
+	// 	{ value: 'Swedish krona', data: 'SEK' },
+	// 	{ value: 'Australian dollar', data: 'AUD' },
+	// 	{ value: 'New Zealand dollar', data: 'NZD' },
+	// 	{ value: 'Czech koruna', data: 'CZK' },
+	// 	{ value: 'Chilean peso', data: 'CLP' },
+	// 	{ value: 'Turkish new lira', data: 'TRY' },
+	// 	{ value: 'Mongolian tugrik', data: 'MNT' },   
+	// 	{ value: 'Israeli new sheqel', data: 'ILS' },
+	// 	{ value: 'Danish krone', data: 'DKK' },
+	// 	{ value: 'Norwegian krone', data: 'NOK' }
+	//   ];
+	  var = json_url = 'data/terms.json'
 	  $('#autocomplete').autocomplete({
-		lookup: currencies,
+		lookup: json_url,
 		onSelect: function (suggestion) {
 		  var content = '<strong>화폐명:</strong> ' + suggestion.value + ' <br> <strong>기호:</strong> ' + suggestion.data;
 		  $('#outputcontent').html(content);
