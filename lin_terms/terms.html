@@ -3,21 +3,24 @@
     <meta charset="utf-8">
     
     <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
-  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <style>
+      body { font-family:'Open Sans'; background-color:#fafafa;} .container { margin:150px auto 30px auto;} h2 { margin:20px auto;}
+    </style>
     <body>
       <input type='text'
       placeholder='Write a term in English, Japanese or Korean'
       class='flexdatalist-json'
       data-relatives='#relative'
       data-url='countries.json'
-      data-search-in='["name","continent","capital"]'
+      data-search-in='["name","continent","capital", "capital_timezone"]'
       data-visible-properties='["name", "continent", "capital", "capital_timezone"]'
       data-group-by='continent'
       data-selection-required='true'
       data-focus-first-result='true'
-      data-min-length='1'
+      data-min-length='2'
       data-value-property='iso2'
-      data-text-property='{capital}, {name}, {continent}'
+      data-text-property='{capital}, {name}, {continent}, {capital_timezone}'
       data-search-contain='false'
       id='chained_relative'
       name='chained_relative'>
@@ -30,7 +33,7 @@ $('.flexdatalist-json').flexdatalist({
      searchContain: false,
      textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
      valueProperty: 'iso2',
-     minLength: 1,
+     minLength: 2,
      focusFirstResult: true,
      selectionRequired: true,
      groupBy: 'continent',
