@@ -6,7 +6,7 @@
   
     <body>
       <input type='text'
-      placeholder='Write the name of a continent, country or capital'
+      placeholder='Write a term in English, Japanese or Korean'
       class='flexdatalist-json'
       data-relatives='#relative'
       data-url='countries.json'
@@ -28,7 +28,7 @@
 
 $('.flexdatalist-json').flexdatalist({
      searchContain: false,
-     textProperty: '{capital}, {name}, {continent}',
+     textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
      valueProperty: 'iso2',
      minLength: 1,
      focusFirstResult: true,
