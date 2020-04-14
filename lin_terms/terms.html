@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     
     <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
-    <script src="jquery.flexdatalist.min.js"></script>
+    <!-- <script src="jquery.flexdatalist.min.js"></script> -->
   
     <body>
     <input id="linterms"
@@ -21,14 +21,16 @@
            multiple='multiple'
            name='country_multiple_by_word_id'>
   
-  <script>
+  <script type="text/javascript">
+  $(function() {
     $('#linterms').flexdatalist({
+        data: '/countries.json',
         minLength: 1,
-        searchIn: 'name',
-        data: '/countries.json'
+        searchIn: 'name'
     });
+  });
   </script>
-   
+   TEST
   </body>
   </head>
 </html>
