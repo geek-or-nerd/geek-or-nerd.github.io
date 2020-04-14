@@ -1,0 +1,15 @@
+{
+    "aa":[
+        {"name":"강아지","company":"aa 엔터테이먼트"},
+        {"name":"강아지", "company":"ss 엔터테이먼트"},
+        {"name":"강아지","company":"ss 엔터테이먼트"},
+        {"name":"고양이", "company":"cc 엔터테이먼트"},
+        {"name" : "고양이", "company" : "엔터테이먼트"},
+        {"name" : "고양이", "company" : "엔터테이먼트1"},
+        {"name" : "고양이", "company" : "엔터테이먼트3"},
+        {"name" : "강아지", "company" : "ajjs"},
+        {"name" : "고양이", "company" : "aaaaaaaaaaa"},
+        {"name" : "aaaaa", "company" : "cccccccccccc"}
+        
+    ]
+}

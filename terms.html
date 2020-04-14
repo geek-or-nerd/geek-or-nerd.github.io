@@ -1,31 +1,22 @@
-<style>
-	.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
-	.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; cursor: pointer; }
-	.autocomplete-selected { background: blue; color: white; }
-	.autocomplete-suggestions strong { font-weight: bold; color: orange; }
-	.autocomplete-group { padding: 2px 5px; }
-	.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
-	</style>
-	
-	<input type="text" id="autocomplete">
-	<div id="outputbox">
-	  <p id="outputcontent">화폐를 선택하면 결과가 출력됨</p>
-	</div>
-	
-	<script src="//code.jquery.com/jquery.min.js"></script>
-	<script src='//cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.26/jquery.autocomplete.min.js'></script>
+<!DOCTYPE html>
+<html>
 
-	<script>
-	var myjson;
-	$.getJSON("data/terms.json", function(json){
-    myjson = json;
-	});
- 
-	  $('#autocomplete').autocomplete({
-		lookup: myjson,
-		onSelect: function (suggestion) {
-		  var content = '<strong>화폐명:</strong> ' + suggestion.list + ' <br> <strong>기호:</strong> ' + suggestion.data;
-		  $('#outputcontent').html(content);
-		}
-	  });
-	</script>
+  <head lang="en">
+    <meta charset="utf-8">
+    <title>Custom Plunker</title>
+    
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/redmond/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+    </script>
+  </head>
+  
+  <body>
+    <input />
+  </body>
+  
+</html>
