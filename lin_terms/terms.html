@@ -5,29 +5,41 @@
     <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
   
     <body>
-    <input type='text'
-           placeholder='Write country name'
-           class='flexdatalist-json'
-           data-data='countries.json'
-           data-search-in='name'
-           data-search-by-word='true'
-           data-visible-properties='["name","capital","continent"]'
-           data-selection-required='true'
-           data-value-property='*'
-           data-min-length='1'
-           data-limit-of-values='2'
-           multiple='multiple'
-           name='country_multiple_by_word_id'>
+      <input type='text'
+      placeholder='Write the name of a continent, country or capital'
+      class='flexdatalist-json'
+      data-relatives='#relative'
+      data-url='countries.json'
+      data-search-in='["name","continent","capital"]'
+      data-visible-properties='["name", "continent", "capital", "capital_timezone"]'
+      data-group-by='continent'
+      data-selection-required='true'
+      data-focus-first-result='true'
+      data-min-length='1'
+      data-value-property='iso2'
+      data-text-property='{capital}, {name}, {continent}'
+      data-search-contain='false'
+      id='chained_relative'
+      name='chained_relative'>
   
-  <!-- <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="jquery.flexdatalist.min.js"></script>
   <script>
 
-    $('.flexdatalist-json').flexdatalist({
-        data: 'countries.json',
-        minLength: 1,
-        searchIn: 'name'
-    });
+$('.flexdatalist-json').flexdatalist({
+     searchContain: false,
+     textProperty: '{capital}, {name}, {continent}',
+     valueProperty: 'iso2',
+     minLength: 1,
+     focusFirstResult: true,
+     selectionRequired: true,
+     groupBy: 'continent',
+     visibleProperties: ["name","continent","capital","capital_timezone"],
+     searchIn: ["name","continent","capital"],
+     url: 'countries.json',
+     relatives: '#relative'
+});
+
   </script>
   </body>
   </head>
