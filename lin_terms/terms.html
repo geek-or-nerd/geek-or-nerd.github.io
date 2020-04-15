@@ -44,7 +44,7 @@
     data-text-property='{name} {capital} {capital_timezone}' // クリックした場合、この形式でフォームを埋める。 data-search-contain='false'
     id='chained_relative' name='chained_relative'>
   <script>
-    $('.flexdatalist-json').flexdatalist({
+    $('.form-control').flexdatalist({
       searchContain: false,
       textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
       valueProperty: 'id', // 項目を選択したとき、文字列だけでなく、裏では「value」も返すようにする。
