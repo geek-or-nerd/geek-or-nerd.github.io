@@ -36,13 +36,22 @@
   </style>
 
 <body>
-  <label for="inputlg">Write a term in English, Japanese or Korean</label>
-  <input class="form-control form-control-lg" type='text' placeholder='e.g. pragmatics' data-relatives='#relative'
-    data-url='countries.json' data-search-in='["name","continent","capital", "capital_timezone"]'
-    data-visible-properties='["name", "continent", "capital", "capital_timezone"]' data-group-by='continent'
-    data-selection-required='true' data-focus-first-result='true' data-min-length='1' data-value-property='id'
-    data-text-property='{name} {capital} {capital_timezone}' // クリックした場合、この形式でフォームを埋める。 data-search-contain='false'
-    id='chained_relative' name='chained_relative'>
+  <div class="page-header">
+    <h1>Glossary of Linguistic Terms <small>(only include terms)</small></h1>
+  </div>
+
+  <!-- 検索窓の幅を自動調節（divタグ） -->
+  <div style="border: 1px solid rgb(255, 255, 255); padding: 10px; height: auto; min-height: 100px; overflow: auto;">
+    <p class="text-center">Write a term in English, Japanese or Korean.</p>
+    <input class="form-control form-control-lg" type='text' placeholder='e.g. pragmatics' data-relatives='#relative'
+      data-url='countries.json' data-search-in='["name","continent","capital", "capital_timezone"]'
+      data-visible-properties='["name", "continent", "capital", "capital_timezone"]' data-group-by='continent'
+      data-selection-required='true' data-focus-first-result='true' data-min-length='1' data-value-property='id'
+      data-text-property='{name} {capital} {capital_timezone}' // クリックした場合、この形式でフォームを埋める。 data-search-contain='false'
+      id='chained_relative' name='chained_relative'>
+  </div>
+
+
   <script>
     $('.form-control').flexdatalist({
       searchContain: false,
@@ -59,18 +68,50 @@
     });
   </script>
 
-  <!-- button3 -->
-  <p>
-    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseContent02"
-      aria-expanded="false" aria-controls="collapseContent02">
-      button要素</button>
-  </p>
-
-  <div class="collapse" id="collapseContent02">
-    <div class="card card-body">
-      button要素
+  <!-- CARD -->
+  <div class="card text-center">
+    <div class="card-header">
+      NOTE
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">収録用語数：1,000</h5>
+      <p class="card-text">分類に用いたカテゴリーは、以下の8つです（ほとんどの用語が「etc.」にあるかも…）。
+        <p>
+          <span class="badge badge-primary">Syntax</span>
+          <span class="badge badge-secondary">Morphology</span>
+          <span class="badge badge-success">Phonetics</span>
+          <span class="badge badge-danger">Phonology</span>
+          <span class="badge badge-warning">Semantics</span>
+          <span class="badge badge-info">Pragmatics</span>
+          <span class="badge badge-light">Grammar</span>
+          <span class="badge badge-dark">etc.</span>
+          <p>
+            用語は重複している場合もあります。参考にした文献やウェブサイト、用語の検索に使用した検索エンジンは、以下の通りです。
+            <ul class="list-unstyled">
+              <li><a href="https://www.google.com/webhp?hl=en" target="_blank">Google</a></li>
+              <li><a
+                  href="https://jglobal.jst.go.jp/search/anythings#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%E8%A8%80%E8%AA%9E%E5%AD%A6%E7%B7%A8%22%7D"
+                  target="_blank">Introduction
+                  of Japanese Scientific Terms on Linguistics</a></li>
+              <li><a
+                  href="https://www.amazon.co.jp/%E8%A8%80%E8%AA%9E%E5%AD%A6%E5%A4%A7%E8%BE%9E%E5%85%B8%E3%80%88%E7%AC%AC6%E5%B7%BB%E3%80%89%E8%A1%93%E8%AA%9E%E7%B7%A8-%E4%BA%80%E4%BA%95-%E5%AD%9D/dp/4385152187/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E8%A8%80%E8%AA%9E%E5%AD%A6%E8%BE%9E%E5%85%B8+%E8%A1%93%E8%AA%9E&qid=1586933688&s=books&sr=1-1"
+                  target="_blank">言語学大辞典〈第6巻〉術語編</a></li>
+              <li><a
+                  href="https://www.amazon.co.jp/%E6%98%8E%E8%A7%A3%E8%A8%80%E8%AA%9E%E5%AD%A6%E8%BE%9E%E5%85%B8-%E6%96%8E%E8%97%A4-%E7%B4%94%E7%94%B7/dp/4385135789/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=32CIXF3MSTB47&dchild=1&keywords=%E6%98%8E%E8%A7%A3%E8%A8%80%E8%AA%9E%E5%AD%A6%E8%BE%9E%E5%85%B8&qid=1586933458&sprefix=%E6%98%8E%E8%A7%A3%E8%A8%80%E8%AA%9E%E5%AD%A6%2Caps%2C992&sr=8-1"
+                  target="_blank">明解言語学辞典</a></li>
+              <li><a
+                  href="https://www.amazon.co.jp/%E6%98%8E%E8%A7%A3%E6%96%B9%E8%A8%80%E5%AD%A6%E8%BE%9E%E5%85%B8-%E6%9C%A8%E9%83%A8-%E6%9A%A2%E5%AD%90/dp/4385135797/ref=pd_aw_sbs_14_4/355-3450877-7032019?_encoding=UTF8&pd_rd_i=4385135797&pd_rd_r=e4478fcc-ebd8-4980-af0f-35ea49244d82&pd_rd_w=Ff25E&pd_rd_wg=Qvy3s&pf_rd_p=bff3a3a6-0f6e-4187-bd60-25e75d4c1c8f&pf_rd_r=0X1A3JKV16YYFR9H3YGG&psc=1&refRID=0X1A3JKV16YYFR9H3YGG"
+                  target="_blank">明解方言学辞典</a></li>
+              <li><a href="https://www.krpia.co.kr/" target="_blank">한국의 지식콘텐츠</a></li>
+            </ul>
+          </p>
+          <a href="#" class="btn btn-primary">作成者への連絡</a>
+    </div>
+    <div class="card-footer text-muted">
+      最終更新日：2020年4月15日
     </div>
   </div>
+
 </body>
 </head>
 
