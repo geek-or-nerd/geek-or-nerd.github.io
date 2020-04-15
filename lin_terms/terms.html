@@ -44,8 +44,8 @@
   <div style="border: 1px solid rgb(255, 255, 255); padding: 10px; height: auto; min-height: 100px; overflow: auto;">
     <p class="text-center">Write a term in English, Japanese or Korean.</p>
     <input class="form-control form-control-lg" type='text' placeholder='e.g. pragmatics' data-relatives='#relative'
-      data-url='countries.json' data-search-in='["name","continent","capital", "capital_timezone"]'
-      data-visible-properties='["name", "continent", "capital", "capital_timezone"]' data-group-by='continent'
+      data-url='countries.json' data-search-in='["name","category","capital", "capital_timezone"]'
+      data-visible-properties='["name", "category", "capital", "capital_timezone"]' data-group-by='category'
       data-selection-required='true' data-focus-first-result='true' data-min-length='1' data-value-property='id'
       data-text-property='{name} {capital} {capital_timezone}' // クリックした場合、この形式でフォームを埋める。 data-search-contain='false'
       id='chained_relative' name='chained_relative'>
@@ -55,14 +55,14 @@
   <script>
     $('.form-control').flexdatalist({
       searchContain: false,
-      textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
+      textProperty: '{capital}, {name}, {category}, {capital_timezone}',
       valueProperty: 'id', // 項目を選択したとき、文字列だけでなく、裏では「value」も返すようにする。
       minLength: 1,
       focusFirstResult: true,
       selectionRequired: true, // 任意の入力を阻止する。trueになると、選択肢の中から選ばなければならない。
-      groupBy: 'continent',
-      visibleProperties: ["name", "continent", "capital", "capital_timezone"], // 検索結果として、どういう項目を見せるのか。
-      searchIn: ["name", "continent", "capital"],
+      groupBy: 'category',
+      visibleProperties: ["name", "category", "capital", "capital_timezone"], // 検索結果として、どういう項目を見せるのか。
+      searchIn: ["name", "category", "capital"],
       url: 'countries.json',
       relatives: '#relative'
     });
@@ -105,7 +105,7 @@
               <li><a href="https://www.krpia.co.kr/" target="_blank">한국의 지식콘텐츠</a></li>
             </ul>
           </p>
-          <a href="#" class="btn btn-primary">作成者への連絡</a>
+          <a href="#" class="btn btn-primary">用語リストを見る（JSON形式）</a>
     </div>
     <div class="card-footer text-muted">
       最終更新日：2020年4月15日

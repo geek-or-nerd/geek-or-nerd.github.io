@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "VOICE",
-        "continent": "SEMANTICS",
+        "category": "SEMANTICS",
         "capital": "態",
         "capital_timezone": "태",
         "currency": "Afghani",
@@ -12,7 +12,7 @@
     {
         "id": "2",
         "name": "FORMAL SEMANTICS",
-        "continent": "SEMANTICS",
+        "category": "SEMANTICS",
         "capital": "形式意味論",
         "capital_timezone": "형식의미론",
         "currency": "Lek",
@@ -21,7 +21,8 @@
     },
     {
         "id": "103",
-        "continent": "SEMANTICS",
+        "name": "SEMANTIC FIELD",
+        "category": "SEMANTICS",
         "capital": "語彙場",
         "capital_timezone": "어휘장",
         "currency": "Yen",
