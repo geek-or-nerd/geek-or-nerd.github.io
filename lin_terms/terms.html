@@ -40,7 +40,7 @@
   <input class="flexdatalist-json" type='text' placeholder='e.g. pragmatics' data-relatives='#relative'
     data-url='countries.json' data-search-in='["name","continent","capital", "capital_timezone"]'
     data-visible-properties='["name", "continent", "capital", "capital_timezone"]' data-group-by='continent'
-    data-selection-required='true' data-focus-first-result='true' data-min-length='2' data-value-property='id'
+    data-selection-required='true' data-focus-first-result='true' data-min-length='1' data-value-property='id'
     data-text-property='{name} {capital} {capital_timezone}' // クリックした場合、この形式でフォームを埋める。 data-search-contain='false'
     id='chained_relative' name='chained_relative'>
   <script>
@@ -48,7 +48,7 @@
       searchContain: false,
       textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
       valueProperty: 'id', // 項目を選択したとき、文字列だけでなく、裏では「value」も返すようにする。
-      minLength: 2,
+      minLength: 1,
       focusFirstResult: true,
       selectionRequired: true, // 任意の入力を阻止する。trueになると、選択肢の中から選ばなければならない。
       groupBy: 'continent',
