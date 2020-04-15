@@ -1,53 +1,90 @@
 <html>
-  <head lang="en">
-    <meta charset="utf-8">
-    
-    <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    
-    <style>
-      body { font-family:'Open Sans'; background-color:#fafafa;} .container { margin:150px auto 30px auto;} h2 { margin:20px auto;}
-    </style>
-  
-    <body>
-      
-      <label for="inputlg">Write a term in English, Japanese or Korean</label>
-      <input class="flexdatalist-json"
-      type='text'
-      placeholder='e.g. pragmatics'
-      data-relatives='#relative'
-      data-url='countries.json'
-      data-search-in='["name","continent","capital", "capital_timezone"]'
-      data-visible-properties='["name", "continent", "capital", "capital_timezone"]'
-      data-group-by='continent'
-      data-selection-required='true'
-      data-focus-first-result='true'
-      data-min-length='2'
-      data-value-property='iso2'
-      data-text-property='{name} {capital} {capital_timezone}'
-      data-search-contain='false'
-      id='chained_relative'
-      name='chained_relative'>
 
+<head lang="en">
+  <meta charset="utf-8">
+  <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+    integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="jquery.flexdatalist.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Open Sans';
+      background-color: #fafafa;
+    }
+
+    .container {
+      margin: 150px auto 30px auto;
+    }
+
+    h2 {
+      margin: 20px auto;
+    }
+  </style>
+
+<body>
+  <label for="inputlg">Write a term in English, Japanese or Korean</label>
+  <input class="flexdatalist-json" type='text' placeholder='e.g. pragmatics' data-relatives='#relative'
+    data-url='countries.json' data-search-in='["name","continent","capital", "capital_timezone"]'
+    data-visible-properties='["name", "continent", "capital", "capital_timezone"]' data-group-by='continent'
+    data-selection-required='true' data-focus-first-result='true' data-min-length='2' data-value-property='*'
+    data-text-property='{name} {capital} {capital_timezone}' // クリックした場合、この形式でフォームを埋める。 data-search-contain='false'
+    id='chained_relative' name='chained_relative'>
   <script>
-
-$('.flexdatalist-json').flexdatalist({
-     searchContain: false,
-     textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
-     valueProperty: 'iso2',
-     minLength: 2,
-     focusFirstResult: true,
-     selectionRequired: true,
-     groupBy: 'continent',
-     visibleProperties: ["name","continent","capital","capital_timezone"],
-     searchIn: ["name","continent","capital"],
-     url: 'countries.json',
-     relatives: '#relative'
-});
-
+    $('.flexdatalist-json').flexdatalist({
+      searchContain: false,
+      textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
+      valueProperty: '*', // 項目を選択したとき、文字列だけでなく、裏では「value」も返すようにする。
+      minLength: 2,
+      focusFirstResult: true,
+      selectionRequired: true, // 任意の入力を阻止する。trueになると、選択肢の中から選ばなければならない。
+      groupBy: 'continent',
+      visibleProperties: ["name", "continent", "capital", "capital_timezone"], // 検索結果として、どういう項目を見せるのか。
+      searchIn: ["name", "continent", "capital"],
+      url: 'countries.json',
+      relatives: '#relative'
+    });
   </script>
-  </body>
-  </head>
+
+  <!-- button1 -->
+  <!-- 
+  <p><a class="btn btn-primary toggle-btn" href="#" role="button">a要素</a></p>
+  <div class="collapse">
+    要素
+  </div>
+
+  <script>
+    $('.toggle-btn').click(function(){
+      $('.collapse').collapse();
+    });
+  </script> -->
+
+  <!-- button2 -->
+  <!-- <p>
+  
+  <p>
+    <a class="btn btn-secondary" data-toggle="collapse" href="#collapseContent01" role="button" aria-expanded="false" aria-controls="collapseContent01">ahref</a>
+  </p>
+  
+  <div class="collapse" id="collapseContent01">
+    <div class="card card-body">
+      ahref
+    </div>
+  </div> -->
+
+  <!-- button3 -->
+  <!-- <p>
+    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseContent02" aria-expanded="false" aria-controls="collapseContent02">
+      button要素</button>
+  </p>
+
+  <div class="collapse" id="collapseContent02">
+    <div class="card card-body">
+      button要素
+    </div>
+  </div> -->
+</body>
+</head>
+
 </html>
