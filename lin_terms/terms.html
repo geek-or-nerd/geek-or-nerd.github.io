@@ -2,9 +2,21 @@
 
 <head lang="en">
   <meta charset="utf-8">
+  <!-- BootstrapCDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <!-- Flexdatalist & jQuery-->
   <link href="jquery.flexdatalist.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
-    integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <script src="jquery.flexdatalist.min.js"></script>
 
@@ -28,14 +40,14 @@
   <input class="flexdatalist-json" type='text' placeholder='e.g. pragmatics' data-relatives='#relative'
     data-url='countries.json' data-search-in='["name","continent","capital", "capital_timezone"]'
     data-visible-properties='["name", "continent", "capital", "capital_timezone"]' data-group-by='continent'
-    data-selection-required='true' data-focus-first-result='true' data-min-length='2' data-value-property='*'
+    data-selection-required='true' data-focus-first-result='true' data-min-length='2' data-value-property='id'
     data-text-property='{name} {capital} {capital_timezone}' // クリックした場合、この形式でフォームを埋める。 data-search-contain='false'
     id='chained_relative' name='chained_relative'>
   <script>
     $('.flexdatalist-json').flexdatalist({
       searchContain: false,
       textProperty: '{capital}, {name}, {continent}, {capital_timezone}',
-      valueProperty: '*', // 項目を選択したとき、文字列だけでなく、裏では「value」も返すようにする。
+      valueProperty: 'id', // 項目を選択したとき、文字列だけでなく、裏では「value」も返すようにする。
       minLength: 2,
       focusFirstResult: true,
       selectionRequired: true, // 任意の入力を阻止する。trueになると、選択肢の中から選ばなければならない。
@@ -47,35 +59,10 @@
     });
   </script>
 
-  <!-- button1 -->
-  <!-- 
-  <p><a class="btn btn-primary toggle-btn" href="#" role="button">a要素</a></p>
-  <div class="collapse">
-    要素
-  </div>
-
-  <script>
-    $('.toggle-btn').click(function(){
-      $('.collapse').collapse();
-    });
-  </script> -->
-
-  <!-- button2 -->
-  <!-- <p>
-  
-  <p>
-    <a class="btn btn-secondary" data-toggle="collapse" href="#collapseContent01" role="button" aria-expanded="false" aria-controls="collapseContent01">ahref</a>
-  </p>
-  
-  <div class="collapse" id="collapseContent01">
-    <div class="card card-body">
-      ahref
-    </div>
-  </div> -->
-
   <!-- button3 -->
-  <!-- <p>
-    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseContent02" aria-expanded="false" aria-controls="collapseContent02">
+  <p>
+    <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseContent02"
+      aria-expanded="false" aria-controls="collapseContent02">
       button要素</button>
   </p>
 
@@ -83,7 +70,7 @@
     <div class="card card-body">
       button要素
     </div>
-  </div> -->
+  </div>
 </body>
 </head>
 
