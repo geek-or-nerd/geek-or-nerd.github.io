@@ -1,5 +1,50 @@
 [
-    {"id":"1","name":"VOICE","continent":"SEMANTICS","capital":"態","capital_timezone":"태","created":"2016-01-11 16:17:32","updated":null},
-    {"id":"2","name":"FORMAL SEMANTICS","localname":null,"iso2":"AL","iso3":"ALB","ison":"8","e164":"355","fips":"AL","tld":"al","area":"28748","phone_code":"355","continent":"SEMANTICS","capital":"形式意味論","capital_timezone":"형식의미론","currency":"Lek","created":"2016-01-11 16:17:32","updated":null},
-    {"id":"103","name":"SEMANTIC FIELD","localname":null,"iso2":"JP","iso3":"JPN","ison":"392","e164":"81","fips":"JA","tld":"jp","area":"377835","phone_code":"81","continent":"SEMANTICS","capital":"語彙場","capital_timezone":"어휘장","currency":"Yen","created":"2016-01-11 16:17:32","updated":null}
+    {
+        "id": "1",
+        "name": "VOICE",
+        "continent": "SEMANTICS",
+        "capital": "態",
+        "capital_timezone": "태",
+        "currency": "Afghani",
+        "created": "2016-01-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "2",
+        "name": "FORMAL SEMANTICS",
+        "localname": null,
+        "iso2": "AL",
+        "iso3": "ALB",
+        "ison": "8",
+        "e164": "355",
+        "fips": "AL",
+        "tld": "al",
+        "area": "28748",
+        "phone_code": "355",
+        "continent": "SEMANTICS",
+        "capital": "形式意味論",
+        "capital_timezone": "형식의미론",
+        "currency": "Lek",
+        "created": "2016-01-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "103",
+        "name": "SEMANTIC FIELD",
+        "localname": null,
+        "iso2": "JP",
+        "iso3": "JPN",
+        "ison": "392",
+        "e164": "81",
+        "fips": "JA",
+        "tld": "jp",
+        "area": "377835",
+        "phone_code": "81",
+        "continent": "SEMANTICS",
+        "capital": "語彙場",
+        "capital_timezone": "어휘장",
+        "currency": "Yen",
+        "created": "2016-01-11 16:17:32",
+        "updated": null
+    }
 ]
