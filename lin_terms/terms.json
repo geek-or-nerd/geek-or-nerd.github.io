@@ -1,0 +1,802 @@
+[
+    {
+        "id": "1",
+        "name": "VOICE",
+        "category": "SEMANTICS",
+        "japanese": "態",
+        "korean": "태",
+        "chinese": "null",
+        "created": "2020-04-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "2",
+        "name": "FORMAL SEMANTICS",
+        "category": "SEMANTICS",
+        "japanese": "形式意味論",
+        "korean": "형식의미론",
+        "chinese": "null",
+        "created": "2020-04-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "3",
+        "name": "SEMANTIC FIELD",
+        "category": "SEMANTICS",
+        "japanese": "語彙場",
+        "korean": "어휘장",
+        "chinese": "null",
+        "created": "2020-04-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "4",
+        "name": "MINIMAL PAIR",
+        "category": "PHONOLOGY",
+        "japanese": "最小対語/ミニマルペア",
+        "korean": "최소대립쌍",
+        "chinese": "null",
+        "created": "2020-04-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "5",
+        "name": "MONOPHTHONGIZATION",
+        "category": "PHONOLOGY",
+        "japanese": "単母音化",
+        "korean": "단모음화",
+        "chinese": "null",
+        "created": "2020-04-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "6",
+        "name": "OVERUSE",
+        "category": "GRAMMAR",
+        "japanese": "過用/乱用",
+        "korean": "오용",
+        "chinese": "null",
+        "created": "2020-04-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "7",
+        "name": "ORTHOGRAPHY",
+        "category": "GRAMMAR",
+        "japanese": "正字法/正書法",
+        "korean": "맞춤법/표기법",
+        "chinese": "null",
+        "created": "2020-04-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "8",
+        "name": "OPTIMALITY THEORY",
+        "category": "PHONOLOGY",
+        "japanese": "最適性理論",
+        "korean": "최적성이론",
+        "chinese": "null",
+        "created": "2020-04-11 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "9",
+        "name": "PERFORMATIVE VERBS",
+        "category": "PRAGMATICS",
+        "japanese": "遂行動詞",
+        "korean": "수행 동사",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "10",
+        "name": "FELICITY CONDITIONS",
+        "category": "PRAGMATICS",
+        "japanese": "適切性条件",
+        "korean": "적절성 조건",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "11",
+        "name": "WORD FORMATION",
+        "category": "MORPHOLOGY",
+        "japanese": "語形成",
+        "korean": "단어 형성",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "12",
+        "name": "ILLOCUTIONARY ACT",
+        "category": "PRAGMATICS",
+        "japanese": "発語内行為",
+        "korean": "발화내 행위",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "13",
+        "name": "LOCUTIONARY ACT",
+        "category": "PRAGMATICS",
+        "japanese": "発話行為",
+        "korean": "발화 행위",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "14",
+        "name": "PERLOCUTIONARY ACT",
+        "category": "PRAGMATICS",
+        "japanese": "発語媒介行為",
+        "korean": "발화매개 행위",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "15",
+        "name": "WORD ORDER",
+        "category": "GRAMMAR",
+        "japanese": "語順",
+        "korean": "어순",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "16",
+        "name": "VERBAL NOUN",
+        "category": "PARTS OF SPEECH",
+        "japanese": "動名詞",
+        "korean": "동명사",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "17",
+        "name": "PARTS OF SPEECH",
+        "category": "GRAMMAR",
+        "japanese": "品詞",
+        "korean": "품사",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "18",
+        "name": "WORD CLASS",
+        "category": "GRAMMAR",
+        "japanese": "語類",
+        "korean": "품사",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "19",
+        "name": "VALENCY",
+        "category": "etc.",
+        "japanese": "結合価",
+        "korean": "결합가",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "20",
+        "name": "TRANSITIVE VERB",
+        "category": "etc.",
+        "japanese": "他動詞",
+        "korean": "타동사",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "21",
+        "name": "TRANSITIVITY",
+        "category": "GRAMMAR",
+        "japanese": "他動性",
+        "korean": "타동성",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "22",
+        "name": "SYNONYM",
+        "category": "SEMANTICS",
+        "japanese": "類義語",
+        "korean": "유의어",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "23",
+        "name": "SPOONERISM",
+        "category": "PHONOLOGY",
+        "japanese": "頭音転換",
+        "korean": "두음전환",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "24",
+        "name": "SLANG",
+        "category": "SOCIOLINGUISTICS",
+        "japanese": "俗語",
+        "korean": "속어",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "25",
+        "name": "RENDAKU",
+        "category": "PHONOLOGY",
+        "japanese": "連濁",
+        "korean": "연탁",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "26",
+        "name": "PRODUCTIVITY",
+        "category": "GRAMMAR",
+        "japanese": "生産性",
+        "korean": "생산성",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "27",
+        "name": "PROPOSITION",
+        "category": "SEMANTICS",
+        "japanese": "命題",
+        "korean": "명제",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "28",
+        "name": "POST POSITION",
+        "category": "GRAMMAR",
+        "japanese": "後置詞",
+        "korean": "후치사",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "29",
+        "name": "ADPOSITION",
+        "category": "GRAMMAR",
+        "japanese": "側置詞",
+        "korean": "측치사",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "30",
+        "name": "MERMAID CONSTRUCTION",
+        "category": "GRAMMAR",
+        "japanese": "人魚構文",
+        "korean": "인어구문",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "31",
+        "name": "LANGUAGE CHANGE",
+        "category": "SOCIOLINGUISTICS",
+        "japanese": "言語変化",
+        "korean": "언어 변화",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "32",
+        "name": "INALIENABLE POSSESSION",
+        "category": "GRAMMAR",
+        "japanese": "譲渡不可能所有",
+        "korean": "비양도성 소유",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "33",
+        "name": "POSSESSION",
+        "category": "GRAMMAR",
+        "japanese": "所有",
+        "korean": "소유",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "34",
+        "name": "ALIENABLE POSSESSION",
+        "category": "GRAMMAR",
+        "japanese": "譲渡可能所有",
+        "korean": "양도성 소유",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "35",
+        "name": "ATTRIBUTIVE POSSESSION",
+        "category": "GRAMMAR",
+        "japanese": "限定所有",
+        "korean": "한정 소유",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "36",
+        "name": "PREDICATIVE POSSESSION",
+        "category": "GRAMMAR",
+        "japanese": "叙述所有",
+        "korean": "서술 소유",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "37",
+        "name": "HONORIFIC",
+        "category": "etc.",
+        "japanese": "敬語",
+        "korean": "경어",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "38",
+        "name": "GREAT VOWEL SHIFT",
+        "category": "PHONOLOGY",
+        "japanese": "大母音推移",
+        "korean": "대모음추이",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "39",
+        "name": "COMPLEMENTARY DISTRIBUTION",
+        "category": "PHONOLOGY",
+        "japanese": "相補分布",
+        "korean": "상보 분포",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "40",
+        "name": "GRAMMATICALIZATION",
+        "category": "GRAMMAR",
+        "japanese": "文法化",
+        "korean": "문법화",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "",
+        "name": "",
+        "category": "",
+        "japanese": "",
+        "korean": "",
+        "chinese": "null",
+        "created": "2020-04-17 16:17:32",
+        "updated": null
+    }
+]

@@ -44,7 +44,7 @@
   <div style="border: 1px solid rgb(255, 255, 255); padding: 10px; height: auto; min-height: 100px; overflow: auto;">
     <p class="text-center">Write a term in English, Japanese or Korean.</p>
     <input class="form-control form-control-lg" type='text' placeholder='e.g. pragmatics' data-relatives='#relative'
-      data-url='countries.json' data-search-in='["name","category","japanese", "korean"]'
+      data-url='terms.json' data-search-in='["name","category","japanese", "korean"]'
       data-visible-properties='["name", "category", "japanese", "korean"]' data-group-by='category'
       data-selection-required='true' data-focus-first-result='true' data-min-length='1' data-value-property='id'
       data-text-property='{name} {japanese} {korean}' // クリックした場合、この形式でフォームを埋める。 data-search-contain='false'
@@ -63,7 +63,7 @@
       groupBy: 'category',
       visibleProperties: ["name", "category", "japanese", "korean"], // 検索結果として、どういう項目を見せるのか。
       searchIn: ["name", "category", "japanese", "korean"],
-      url: 'countries.json',
+      url: 'terms.json',
       relatives: '#relative'
     });
   </script>
