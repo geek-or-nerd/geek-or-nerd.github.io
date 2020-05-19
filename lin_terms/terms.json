@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "name": "VOICE",
+        "name": "voice",
         "category": "SEMANTICS",
         "japanese": "態",
         "korean": "태",
@@ -11,7 +11,7 @@
     },
     {
         "id": "2",
-        "name": "FORMAL SEMANTICS",
+        "name": "formal semantics",
         "category": "SEMANTICS",
         "japanese": "形式意味論",
         "korean": "형식의미론",
@@ -21,7 +21,7 @@
     },
     {
         "id": "3",
-        "name": "SEMANTIC FIELD",
+        "name": "semantic field",
         "category": "SEMANTICS",
         "japanese": "語彙場",
         "korean": "어휘장",
@@ -31,7 +31,7 @@
     },
     {
         "id": "4",
-        "name": "MINIMAL PAIR",
+        "name": "minimal pair",
         "category": "PHONOLOGY",
         "japanese": "最小対語/ミニマルペア",
         "korean": "최소대립쌍",
@@ -41,7 +41,7 @@
     },
     {
         "id": "5",
-        "name": "MONOPHTHONGIZATION",
+        "name": "monophthongization",
         "category": "PHONOLOGY",
         "japanese": "単母音化",
         "korean": "단모음화",
@@ -51,7 +51,7 @@
     },
     {
         "id": "6",
-        "name": "OVERUSE",
+        "name": "overuse",
         "category": "GRAMMAR",
         "japanese": "過用/乱用",
         "korean": "오용",
@@ -61,7 +61,7 @@
     },
     {
         "id": "7",
-        "name": "ORTHOGRAPHY",
+        "name": "orthography",
         "category": "GRAMMAR",
         "japanese": "正字法/正書法",
         "korean": "맞춤법/표기법",
@@ -71,8 +71,8 @@
     },
     {
         "id": "8",
-        "name": "OPTIMALITY THEORY",
-        "category": "PHONOLOGY",
+        "name": "optimality theory",
+        "category": "THEORY",
         "japanese": "最適性理論",
         "korean": "최적성이론",
         "chinese": "null",
@@ -81,7 +81,7 @@
     },
     {
         "id": "9",
-        "name": "PERFORMATIVE VERBS",
+        "name": "performative verbs",
         "category": "PRAGMATICS",
         "japanese": "遂行動詞",
         "korean": "수행 동사",
@@ -91,7 +91,7 @@
     },
     {
         "id": "10",
-        "name": "FELICITY CONDITIONS",
+        "name": "felicity conditions",
         "category": "PRAGMATICS",
         "japanese": "適切性条件",
         "korean": "적절성 조건",
@@ -101,7 +101,7 @@
     },
     {
         "id": "11",
-        "name": "WORD FORMATION",
+        "name": "word formation",
         "category": "MORPHOLOGY",
         "japanese": "語形成",
         "korean": "단어 형성",
@@ -111,7 +111,7 @@
     },
     {
         "id": "12",
-        "name": "ILLOCUTIONARY ACT",
+        "name": "illocutionary act",
         "category": "PRAGMATICS",
         "japanese": "発語内行為",
         "korean": "발화내 행위",
@@ -121,7 +121,7 @@
     },
     {
         "id": "13",
-        "name": "LOCUTIONARY ACT",
+        "name": "locutionary act",
         "category": "PRAGMATICS",
         "japanese": "発話行為",
         "korean": "발화 행위",
@@ -131,7 +131,7 @@
     },
     {
         "id": "14",
-        "name": "PERLOCUTIONARY ACT",
+        "name": "perlocutionary act",
         "category": "PRAGMATICS",
         "japanese": "発語媒介行為",
         "korean": "발화매개 행위",
@@ -141,7 +141,7 @@
     },
     {
         "id": "15",
-        "name": "WORD ORDER",
+        "name": "word order",
         "category": "GRAMMAR",
         "japanese": "語順",
         "korean": "어순",
@@ -151,8 +151,8 @@
     },
     {
         "id": "16",
-        "name": "VERBAL NOUN",
-        "category": "PARTS OF SPEECH",
+        "name": "gerund",
+        "category": "GRAMMAR",
         "japanese": "動名詞",
         "korean": "동명사",
         "chinese": "null",
@@ -161,7 +161,7 @@
     },
     {
         "id": "17",
-        "name": "PARTS OF SPEECH",
+        "name": "parts of speech",
         "category": "GRAMMAR",
         "japanese": "品詞",
         "korean": "품사",
@@ -171,7 +171,7 @@
     },
     {
         "id": "18",
-        "name": "WORD CLASS",
+        "name": "word class",
         "category": "GRAMMAR",
         "japanese": "語類",
         "korean": "품사",
@@ -181,7 +181,7 @@
     },
     {
         "id": "19",
-        "name": "VALENCY",
+        "name": "valency",
         "category": "etc.",
         "japanese": "結合価",
         "korean": "결합가",
@@ -191,7 +191,7 @@
     },
     {
         "id": "20",
-        "name": "TRANSITIVE VERB",
+        "name": "transitive verb",
         "category": "etc.",
         "japanese": "他動詞",
         "korean": "타동사",
@@ -201,7 +201,7 @@
     },
     {
         "id": "21",
-        "name": "TRANSITIVITY",
+        "name": "transitivity",
         "category": "GRAMMAR",
         "japanese": "他動性",
         "korean": "타동성",
@@ -211,7 +211,7 @@
     },
     {
         "id": "22",
-        "name": "SYNONYM",
+        "name": "synonym",
         "category": "SEMANTICS",
         "japanese": "類義語",
         "korean": "유의어",
@@ -221,7 +221,7 @@
     },
     {
         "id": "23",
-        "name": "SPOONERISM",
+        "name": "spoonerism",
         "category": "PHONOLOGY",
         "japanese": "頭音転換",
         "korean": "두음전환",
@@ -231,7 +231,7 @@
     },
     {
         "id": "24",
-        "name": "SLANG",
+        "name": "slang",
         "category": "SOCIOLINGUISTICS",
         "japanese": "俗語",
         "korean": "속어",
@@ -241,7 +241,7 @@
     },
     {
         "id": "25",
-        "name": "RENDAKU",
+        "name": "rendaku",
         "category": "PHONOLOGY",
         "japanese": "連濁",
         "korean": "연탁",
@@ -251,7 +251,7 @@
     },
     {
         "id": "26",
-        "name": "PRODUCTIVITY",
+        "name": "productivity",
         "category": "GRAMMAR",
         "japanese": "生産性",
         "korean": "생산성",
@@ -261,7 +261,7 @@
     },
     {
         "id": "27",
-        "name": "PROPOSITION",
+        "name": "proposition",
         "category": "SEMANTICS",
         "japanese": "命題",
         "korean": "명제",
@@ -271,7 +271,7 @@
     },
     {
         "id": "28",
-        "name": "POST POSITION",
+        "name": "post position",
         "category": "GRAMMAR",
         "japanese": "後置詞",
         "korean": "후치사",
@@ -281,7 +281,7 @@
     },
     {
         "id": "29",
-        "name": "ADPOSITION",
+        "name": "adposition",
         "category": "GRAMMAR",
         "japanese": "側置詞",
         "korean": "측치사",
@@ -291,7 +291,7 @@
     },
     {
         "id": "30",
-        "name": "MERMAID CONSTRUCTION",
+        "name": "mermaid construction",
         "category": "GRAMMAR",
         "japanese": "人魚構文",
         "korean": "인어구문",
@@ -301,7 +301,7 @@
     },
     {
         "id": "31",
-        "name": "LANGUAGE CHANGE",
+        "name": "language change",
         "category": "SOCIOLINGUISTICS",
         "japanese": "言語変化",
         "korean": "언어 변화",
@@ -311,7 +311,7 @@
     },
     {
         "id": "32",
-        "name": "INALIENABLE POSSESSION",
+        "name": "inalienable possession",
         "category": "GRAMMAR",
         "japanese": "譲渡不可能所有",
         "korean": "비양도성 소유",
@@ -321,7 +321,7 @@
     },
     {
         "id": "33",
-        "name": "POSSESSION",
+        "name": "possession",
         "category": "GRAMMAR",
         "japanese": "所有",
         "korean": "소유",
@@ -331,7 +331,7 @@
     },
     {
         "id": "34",
-        "name": "ALIENABLE POSSESSION",
+        "name": "alienable possession",
         "category": "GRAMMAR",
         "japanese": "譲渡可能所有",
         "korean": "양도성 소유",
@@ -341,7 +341,7 @@
     },
     {
         "id": "35",
-        "name": "ATTRIBUTIVE POSSESSION",
+        "name": "attributive possession",
         "category": "GRAMMAR",
         "japanese": "限定所有",
         "korean": "한정 소유",
@@ -351,7 +351,7 @@
     },
     {
         "id": "36",
-        "name": "PREDICATIVE POSSESSION",
+        "name": "predicative possession",
         "category": "GRAMMAR",
         "japanese": "叙述所有",
         "korean": "서술 소유",
@@ -361,7 +361,7 @@
     },
     {
         "id": "37",
-        "name": "HONORIFIC",
+        "name": "honorific",
         "category": "etc.",
         "japanese": "敬語",
         "korean": "경어",
@@ -371,7 +371,7 @@
     },
     {
         "id": "38",
-        "name": "GREAT VOWEL SHIFT",
+        "name": "great vowel shift",
         "category": "PHONOLOGY",
         "japanese": "大母音推移",
         "korean": "대모음추이",
@@ -381,17 +381,17 @@
     },
     {
         "id": "39",
-        "name": "COMPLEMENTARY DISTRIBUTION",
+        "name": "complementary distribution",
         "category": "PHONOLOGY",
         "japanese": "相補分布",
-        "korean": "상보 분포",
+        "korean": "상보분포",
         "chinese": "null",
         "created": "2020-04-17 16:17:32",
         "updated": null
     },
     {
         "id": "40",
-        "name": "GRAMMATICALIZATION",
+        "name": "grammaticalization",
         "category": "GRAMMAR",
         "japanese": "文法化",
         "korean": "문법화",
@@ -400,201 +400,201 @@
         "updated": null
     },
     {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
+        "id": "41",
+        "name": "folk etymology",
+        "category": "GEOGRAPHY",
+        "japanese": "民衆語源",
+        "korean": "민간어원",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "42",
+        "name": "homonymic clash",
+        "category": "GEOGRAPHY",
+        "japanese": "同音衝突",
+        "korean": "동음충돌",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "43",
+        "name": "paronymic attraction",
+        "category": "GEOGRAPHY",
+        "japanese": "類音牽引",
+        "korean": "유음견인",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "44",
+        "name": "geolinguistics",
+        "category": "GEOGRAPHY",
+        "japanese": "地理言語学",
+        "korean": "지리언어학",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "45",
+        "name": "peripheral distribution",
+        "category": "GEOGRAPHY",
+        "japanese": "周辺分布/ABA分布",
+        "korean": "주변 분포/ABA 분포",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "46",
+        "name": "relic form",
+        "category": "GEOGRAPHY",
+        "japanese": "残存形式",
+        "korean": "잔존 형식",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "47",
+        "name": "Montague Grammar",
+        "category": "THEORY",
+        "japanese": "モンタギュー文法",
+        "korean": "몬테규문법",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "48",
+        "name": "drift",
+        "category": "THEORY",
+        "japanese": "ドリフト/漂流/駆流/偏流/定向変化",
+        "korean": "드리프트/표류",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "49",
+        "name": "Head-Driven Phrase Structure Grammar(HPSG)",
+        "category": "THEORY",
+        "japanese": "主辞駆動句構造文法",
+        "korean": "구구조문법",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "50",
+        "name": "Role and Reference Grammar(RRG)",
+        "category": "THEORY",
+        "japanese": "RRG",
+        "korean": "RRG",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "51",
+        "name": "Relational Grammar(RG)",
+        "category": "THEORY",
+        "japanese": "関係文法",
+        "korean": "관계문법",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "52",
+        "name": "X-bar theory",
+        "category": "THEORY",
+        "japanese": "Xバー理論",
+        "korean": "X바 이론",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "53",
+        "name": "topic continuity",
+        "category": "PRAGMATICS",
+        "japanese": "話題持続性",
+        "korean": "화제 지속성",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "54",
+        "name": "relic area",
+        "category": "GEOGRAPHY",
+        "japanese": "残存地域",
+        "korean": "잔존 지역",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "55",
+        "name": "focal area",
+        "category": "GEOGRAPHY",
+        "japanese": "焦点地域",
+        "korean": "초점 지역",
+        "chinese": "null",
+        "created": "2020-04-20 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "56",
+        "name": "specialization of meaning",
+        "category": "SEMANTICS",
+        "japanese": "意味の特殊化",
+        "korean": "의미의 특수화",
+        "chinese": "null",
+        "created": "2020-05-18 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "57",
+        "name": "generalization of meaning",
+        "category": "SEMANTICS",
+        "japanese": "意味の一般化",
+        "korean": "의미의 일반화",
+        "chinese": "null",
+        "created": "2020-05-18 16:17:32",
+        "updated": null
+    },
+    {
+        "id": "58",
+        "name": "amelioration of meaning",
+        "category": "SEMANTICS",
+        "japanese": "意味の向上",
+        "korean": "의미의 향상",
         "chinese": "null",
         "created": "2020-04-17 16:17:32",
         "updated": null
     },
     {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
+        "id": "59",
+        "name": "pejoration/deterioration of meaning",
+        "category": "SEMANTICS",
+        "japanese": "意味の悪化",
+        "korean": "의미의 악화",
         "chinese": "null",
         "created": "2020-04-17 16:17:32",
         "updated": null
     },
     {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
-        "chinese": "null",
-        "created": "2020-04-17 16:17:32",
-        "updated": null
-    },
-    {
-        "id": "",
-        "name": "",
-        "category": "",
-        "japanese": "",
-        "korean": "",
+        "id": "60",
+        "name": "semantic derogation of women",
+        "category": "SEMANTICS",
+        "japanese": "女性を表わす語の意味の悪化",
+        "korean": "여성을 나타내는 단어의 의미 악화",
         "chinese": "null",
         "created": "2020-04-17 16:17:32",
         "updated": null
