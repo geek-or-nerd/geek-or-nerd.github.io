@@ -25,8 +25,8 @@ func handleScrape(c echo.Context) error {
 func main() {
 	e := echo.New()
 	e.GET("https://geek-or-nerd.github.io/googling/", handleHome)
-	e.POST("/scrape", handleScrape)
-	// e.Logger.Fatal(e.Start(":1323"))
+	e.POST("googling/scrape", handleScrape)
+	e.Logger.Fatal(e.Start(":443"))
 	// TODO: 演算子の入力
 	// var keywords = []string{"site:facebook.com | site:twitter.com | site:youtube.com \"女女し\""}
 	// for _, keyword := range keywords {
