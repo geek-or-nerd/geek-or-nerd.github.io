@@ -26,7 +26,7 @@ func main() {
 	e := echo.New()
 	e.GET("/", handleHome)
 	e.POST("/scrape", handleScrape)
-	e.Logger.Fatal(e.Start(":1323"))
+	// e.Logger.Fatal(e.Start(":1323"))
 	// TODO: 演算子の入力
 	// var keywords = []string{"site:facebook.com | site:twitter.com | site:youtube.com \"女女し\""}
 	// for _, keyword := range keywords {
